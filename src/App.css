@@ -1,38 +1,252 @@
-.App {
-  text-align: center;
+.mainBody {
+  width: 100%;
+  height: auto;
+  background-color: rgb(10, 25, 47);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainPage {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(10, 25, 47);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topupBar {
+  width: 100%;
+  height: 100px;
+  flex-direction: row;
+  margin-bottom: 10px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.logoBox {
+  width: 80px;
+  height: 80px;
+  background-color: brown;
+  align-items: center;
+  justify-items: center;
+  margin-left: 60px;
+  align-self: center;
+
+}
+
+.barItem {
+  width: 500px;
+  height: 45px;
+  align-items: center;
+  justify-items: center;
+  margin-right: 60px;
+  align-self: center;
+  display: flex;
+
+}
+
+.about {
+  width: 100px;
+  height: 45px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.aboutText {
+  color: rgb(76, 195, 174);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutText :hover {
+  color: rgb(76, 195, 174) !important;
+}
+
+.aboutTextGreen {
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
+
+}
+
+.about1 {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.about2 {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.about3 {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.about4 {
+  width: 100px;
+  height: 45px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid rgb(76, 195, 174);
+  border-radius: 4px;
+
+
+
+}
+
+.buttonText {
+  color: rgb(76, 195, 174);
+}
+
+.mainBox {
+  width: 100%;
+  height: 90vh;
+
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: row;
+}
+
+.permenantLine {
+  width: 30px;
+  height: 85vh;
+  background-color: aquamarine;
+  margin-left: 50px;
+  margin-right: 60px;
+  display: flex;
+}
+
+.secondMainBox {
+  width: 80%;
+  height: 85vh;
+
+  margin-left: 50px;
+  margin-right: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstLine {
+  width: 100%;
+  height: 40px;
+  margin-top: 2px;
+
+}
+
+.firstLineText {
+  color: #64FFDA;
+  font-size: 18px;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+
+
+}
+
+.secondLine {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+
+
+
+
+
+}
+
+.secondLineText {
+  color: #ccd6f6;
+  font-size: clamp(40px, 8vw, 70px);
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  word-spacing: normal;
+  font-weight: 600;
+  margin-top: 9px;
+
+
+}
+
+
+.thirdLine {
+  width: 100%;
+  height: 100px;
+
+
+
+}
+
+.thirdLineText {
+  color: #8892b0;
+  font-size: clamp(40px, 8vw, 70px);
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  word-spacing: normal;
+  font-weight: 600;
+  line-height: 0.8;
+
+
+
+}
+
+.fourthLine {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+
+
+}
+
+.fourthLineText {
+  color: #8892b0;
+  font-size: 16px;
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  word-spacing: normal;
+  line-height: 1.3;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.fifthLine {
+  width: 27%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(76, 195, 174);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.fifthLineText {
+  color: #64FFDA;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 5px;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+
 }
